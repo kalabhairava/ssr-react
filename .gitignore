@@ -1,0 +1,12 @@
+# ignore generated files
+build/
+
+# ignore node modules
+node_modules/
+
+# ignore log files
+yarn-error.log
+npm-error.log
+
+# ignore yarn.lock file for now - TODO: remove this later
+yarn.lock
