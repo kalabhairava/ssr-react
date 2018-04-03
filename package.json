@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "build:watch": "webpack --config webpack.server.js --watch",
+        "build:watch:client": "webpack --config webpack.client.js --watch",
         "run:server": "nodemon --watch build --exec \"node build/bundle.js\""
     },
     "author": "",
