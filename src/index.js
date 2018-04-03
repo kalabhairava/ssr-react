@@ -1,8 +1,7 @@
-// Use CommonJS module pattern as this code will run in node environment.
-const React = require('react');
-const renderToString = require('react-dom/server').renderToString;
-const Home = require('./client/components/Home').default;
-const express = require('express');
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import Home from './client/components/Home';
+import express from 'express';
 const app = express();
 
 app.get('/', (request, response) => {
