@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.static('public'));
 
-app.get('/', (request, response) => {
+app.get('*', (request, response) => {
     // Create a store here so that we can call the rendering function
     // only when all the information for rendering are available
     const store = createStore();
