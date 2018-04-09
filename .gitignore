@@ -11,3 +11,6 @@ npm-error.log
 
 # ignore yarn.lock file for now - TODO: remove this later
 yarn.lock
+
+# other files
+.DS_Store
